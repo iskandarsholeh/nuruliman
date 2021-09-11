@@ -101,7 +101,7 @@ https://templatemo.com/tm-561-purple-buzz
 
         <div class="row projects gx-lg-5">
                  <?php
-               $db_connection = mysqli_connect("localhost","root","","nuruliman");
+              $db_connection = mysqli_connect("us-cdbr-east-04.cleardb.com","b4d4b5e8043e16","1109892b","heroku_afcc4630639690d");
                 $select = mysqli_query($db_connection, "SELECT * FROM work");
                 while ($row = $select->fetch_assoc()) {                         
                 ?>
