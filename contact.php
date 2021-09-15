@@ -29,7 +29,7 @@ https://templatemo.com/tm-561-purple-buzz
     <!-- Header -->
     <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
         <div class="container d-flex justify-content-between align-items-center">
-            <a class="navbar-brand h1" href="index.html">
+            <a class="navbar-brand h1" href="index.php">
         
                <span class="text-primary h4">Nurul Iman</span>
             </a>
@@ -47,10 +47,10 @@ https://templatemo.com/tm-561-purple-buzz
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="#">Visi & Misi</a>
                         </li> -->
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.php">About</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.php">Profile</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.php">Work</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.php">News</a>
                         </li>
                         <!-- <li class="nav-item">
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="#">Testimonial</a>
@@ -80,8 +80,8 @@ https://templatemo.com/tm-561-purple-buzz
                     </div>
                     <ul class="contact-info list-unstyled col-lg-9 col-9  light-300">
                         <li class="h5 mb-0">Media Contact</li>
-                        <li class="text-muted">Mr. John Doe</li>
-                        <li class="text-muted">010-020-0340</li>
+                        <li class="text-muted">Nurul Iman</li>
+                        <li class="text-muted">tpqnuruliman782@gmail.com</li>
                     </ul>
                 </div>
 
@@ -93,8 +93,8 @@ https://templatemo.com/tm-561-purple-buzz
                     </div>
                     <ul class="contact-info list-unstyled col-lg-9 col-9 light-300">
                         <li class="h5 mb-0">Technical Contact</li>
-                        <li class="text-muted">Mr. John Stiles</li>
-                        <li class="text-muted">010-020-0340</li>
+                        <li class="text-muted">Nurul Iman</li>
+                        <li class="text-muted">085707610048</li>
                     </ul>
                 </div>
 
@@ -119,13 +119,16 @@ https://templatemo.com/tm-561-purple-buzz
             <div class="row py-4">
 
                 <div class="col-lg-3 col-12 align-left">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index.php">
                         <i class='bx bx-buildings bx-sm text-light'></i>
                         <span class="text-light h5">Nurul</span> <span class="text-light h5 semi-bold-600">Iman</span>
                     </a>
                     <p class="text-light my-lg-4 my-2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incididunt ut.
+                   <b> TPQ Nurul Iman </b>
+                <br>
+                Jalan Hasanuddin Rt. 03 Rw.07 <br>
+                Kota Batu - Jawa Timur <br> <br>
+
                     </p>
                     <ul class="list-inline footer-icons light-300">
                         <li class="list-inline-item m-0">
@@ -157,17 +160,17 @@ https://templatemo.com/tm-561-purple-buzz
                 </div>
 
                 <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
-                    <h3 class="h4 pb-lg-3 text-light light-300">Our Company</h2>
+                    <h3 class="h4 pb-lg-3 text-light light-300">Profile</h2>
                         <ul class="list-unstyled text-light light-300">
-                            <li class="pb-2">
+                            <!-- <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.php">Home</a>
-                            </li>
+                            </li> -->
                             <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about.php">About Us</a>
                             </li>
-                            <li class="pb-2">
+                            <!-- <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.php">Work</a>
-                            </li>
+                            </li> -->
                             <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.php">Contact</a>
                             </li>
@@ -195,7 +198,7 @@ https://templatemo.com/tm-561-purple-buzz
                 <div class="row pt-2">
                     <div class="col-lg-6 col-sm-12">
                         <p class="text-lg-start text-center text-light light-300">
-                            © Copyright 2021 Purple Buzz Company. All Rights Reserved.
+                            © Copyright 2021.
                         </p>
                     </div>
                     <div class="col-lg-6 col-sm-12">

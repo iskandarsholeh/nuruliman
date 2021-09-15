@@ -1,5 +1,5 @@
 <?php
-$db_connection = mysqli_connect("us-cdbr-east-04.cleardb.com","b4d4b5e8043e16","1109892b","heroku_afcc4630639690d");
+mysqli_connect("us-cdbr-east-04.cleardb.com","b4d4b5e8043e16","1109892b","heroku_afcc4630639690d");
 
 $nama = $_POST['name'];
 $user = $_POST['username'];

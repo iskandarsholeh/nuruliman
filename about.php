@@ -29,7 +29,7 @@ https://templatemo.com/tm-561-purple-buzz
     <!-- Header -->
     <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
         <div class="container d-flex justify-content-between align-items-center">
-            <a class="navbar-brand h1" href="index.html">
+            <a class="navbar-brand h1" href="index.php">
                
                 <span class="text-dark h4"><span class="text-primary h4">Nurul Iman</span>
             </a>
@@ -47,10 +47,10 @@ https://templatemo.com/tm-561-purple-buzz
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="#">Visi & Misi</a>
                         </li> -->
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.php">About</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.php">Profile</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.php">Work</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.php">News</a>
                         </li>
                         <!-- <li class="nav-item">
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="#">Testimonial</a>
@@ -71,13 +71,23 @@ https://templatemo.com/tm-561-purple-buzz
         <div class="container">
             <div class="row d-flex align-items-center py-5">
                 <div class="col-lg-6 text-start">
-                    <h1 class="h2 py-5 text-primary typo-space-line">Selamat Datang</h1>
-                    <p>
-                    Taman Pendidikan Al-Qur'an Nurul Iman merupakan lembaga 
-                    pendidikan yang berada di Kota Batu yang mengutaman pembelajaran Al-Qur'an dan Pendidikan Agama Islam. 
-                    Dengan mengaplikasikan Al-Qur'an dan sunnah dalam pembelajaran dan kehidupan sehari-hari, 
-                    sehingga menghasilkan generasi Qur'ani dan Berakhlakul Karimah. Tahun berdiri 2003
-                    </p>
+                    <h1 class="h2 py-5 text-primary typo-space-line">PENDAHULUAN</h1>
+                    <style>
+                     div.d {
+                    text-align: justify;
+                    } 
+                        </style>
+                    <div class="d">
+                    <b>  <h2> Taman Pendidikan Al-Qur'an</h2></b>
+                    <br><br> 
+                    <b>Nurul Iman.</b>  
+                    Mulai beroperasi pada tahun 2003 yang dikepalai oleh Ustadzah Sumiati, metode pembelajaran
+                    di TPQ Nurul Iman ini menggunakan metode Tilawati merupakan metode belajar membaca Al- Qur'an yang 
+                    disampakan secara simbang antara pembiasaan melalui pendekatan klasikal dan kebenaran membaca melalui 
+                    pendekatan individual dan teknik baca simak. Jumlah Santri pada TPQ Nurul Iman mencapai 201.
+                    pada hari Sabtu dan Ahad Libur.
+
+                </div>
                 </div>
                 <div class="col-lg-6">
                 <img src="./assets/img/strukaa.png" height="500" width="380" align="right">
@@ -87,159 +97,8 @@ https://templatemo.com/tm-561-purple-buzz
     </section>
     <!-- End Banner Hero -->
 
-
-    <!-- Start Team Member -->
-    <section class="container py-5">
-        <div class="pt-5 pb-3 d-lg-flex align-items-center gx-5">
-
-            <div class="col-lg-3">
-                <h2 class="h2 py-5 typo-space-line">Our Team</h2>
-                <p class="text-muted light-300">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-            </div>
-
-            <div class="col-lg-9 row">
-                <div class="team-member col-md-4">
-                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-01.jpg" alt="Card image">
-                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
-                        <li>John Doe</li>
-                        <li>Business Development</li>
-                    </ul>
-                </div>
-                <div class="team-member col-md-4">
-                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-02.jpg" alt="Card image">
-                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
-                        <li>Jane Doe</li>
-                        <li>Media Development</li>
-                    </ul>
-                </div>
-                <div class="team-member col-md-4">
-                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-03.jpg" alt="Card image">
-                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
-                        <li>Sam</li>
-                        <li>Developer</li>
-                    </ul>
-                </div>
-                <div class="team-member col-md-4">
-                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-03.jpg" alt="Card image">
-                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
-                        <li>Sam</li>
-                        <li>Developer</li>
-                    </ul>
-                </div>
-            </div>
-
-            <br>
-            
-        </div>
-    </section>
-    <section class="container py-5">
-        <div class="pt-5 pb-3 d-lg-flex align-items-center gx-5">
-
-            <div class="col-lg-3">
-                <h2 class="h2 py-5 typo-space-line">Our Team</h2>
-                <p class="text-muted light-300">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-            </div>
-
-            <div class="col-lg-9 row">
-                <div class="team-member col-md-4">
-                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-01.jpg" alt="Card image">
-                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
-                        <li>John Doe</li>
-                        <li>Business Development</li>
-                    </ul>
-                </div>
-                <div class="team-member col-md-4">
-                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-02.jpg" alt="Card image">
-                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
-                        <li>Jane Doe</li>
-                        <li>Media Development</li>
-                    </ul>
-                </div>
-                <div class="team-member col-md-4">
-                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-03.jpg" alt="Card image">
-                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
-                        <li>Sam</li>
-                        <li>Developer</li>
-                    </ul>
-                </div>
-                <div class="team-member col-md-4">
-                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-03.jpg" alt="Card image">
-                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
-                        <li>Sam</li>
-                        <li>Developer</li>
-                    </ul>
-                </div>
-            </div>
-
-            <br>
-            
-        </div>
-    </section>
-    <!-- End Team Member -->
-
-    <!-- Start Our Partner -->
-    <section class="bg-secondary py-3">
-        <div class="container py-5">
-            <h2 class="h2 text-white text-center py-5">Our Partner</h2>
-            <div class="row text-center">
-                <div class="col-md-3 mb-3">
-                    <div class="card partner-wap py-5">
-                        <a href="#"><i class='display-1 text-white bx bxs-buildings'></i></a>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card partner-wap py-5">
-                        <a href="#"><i class='display-1 bx text-white bxs-check-shield bx-lg'></i></a>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card partner-wap py-5">
-                        <a href="#"><i class='display-1 text-white bx bxs-bolt-circle'></i></a>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card partner-wap py-5">
-                        <a href="#"><i class='display-1 text-white bx bxs-spa'></i></a>
-                        
-                    </div>
-                    <p>adad</p>
-                </div>
-              <center>  <div class="col-md-3 mb-3">
-                    <div class="card partner-wap py-5">
-                        <a href="#"><img src="url" alt="alternatetext"></a>
-                        
-                    </div>
-                </div> </center>
-            </div>
-        </div>
-    </section>
-    <!--End Our Partner-->
-
-    <!-- Start Choice -->
-    <section class="why-us banner-bg bg-light">
-        <div class="container my-4">
-            <div class="row">
-                <div class="banner-img col-lg-5">
-                    <img src="./assets/img/work.svg" class="rounded img-fluid" alt="">
-                </div>
-                <div class="banner-content col-lg-7 align-self-end">
-                    <h2 class="h2 pb-3">Why you choose us?</h2>
-                    <p class="text-muted pb-5 light-300">
-                    You are allowed to download and use this Purple Buzz template for your websites. You are <strong>not allowed</strong> to re-distribute this template ZIP file on other template websites. It is quite easy to simply copy and repost the ZIP file on any <a rel="nofollow" href="https://www.google.com/search?q=free+css" target="_blank">Free CSS collection</a> websites.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Choice -->
-
-    <!-- Start Aim -->
-    <section class="banner-bg bg-white py-5">
+<!-- Start Aim -->
+<section class="banner-bg bg-white py-5">
         <div class="container my-4">
             <div class="row text-center">
 
@@ -283,19 +142,176 @@ https://templatemo.com/tm-561-purple-buzz
     </section>
     <!-- End Aim -->
 
-    <!-- Start Footer -->
-    <footer class="bg-secondary pt-4">
+    <!-- Start Team Member -->
+    <!-- <section class="container py-5">
+        <div class="pt-5 pb-3 d-lg-flex align-items-center gx-5">
+
+            <div class="col-lg-3">
+                <h2 class="h2 py-5 typo-space-line">Our Team</h2>
+                <p class="text-muted light-300">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+            <div class="col-lg-9 row">
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-01.jpg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>John Doe</li>
+                        <li>Business Development</li>
+                    </ul>
+                </div>
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-02.jpg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>Jane Doe</li>
+                        <li>Media Development</li>
+                    </ul>
+                </div>
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-03.jpg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>Sam</li>
+                        <li>Developer</li>
+                    </ul>
+                </div>
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-03.jpg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>Sam</li>
+                        <li>Developer</li>
+                    </ul>
+                </div>
+            </div>
+
+            <br>
+            
+        </div>
+    </section> -->
+    <!-- End Team Member -->
+    
+    <section class="py-5 mb-5">
+        <div class="container">
+            <div class="recent-work-header row text-center pb-5">
+                <h2 class="col-md-6 m-auto h2 semi-bold-600 py-5">Picture</h2>
+            </div>
+            <div class="row gy-5 g-lg-5 mb-4">
+              
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                   
+                        <img class="recent-work-img card-img" src="./assets/img/1.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
+                                <h3 class="card-title light-300"></h3>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                 
+                </div><!-- End Recent Work -->
+                <div class="col-md-4 mb-3">
+                   
+                        <img class="recent-work-img card-img" src="./assets/img/2.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
+                                <h3 class="card-title light-300"></h3>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                 
+                </div>
+              
+                <div class="col-md-4 mb-3">
+                   
+                   <img class="recent-work-img card-img" src="./assets/img/3.JPG" alt="Card image">
+                   <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                       <div class="recent-work-content text-start mb-3 ml-3 text-dark">
+                           <h3 class="card-title light-300"></h3>
+                           <p class="card-text"></p>
+                       </div>
+                   </div>
+            
+           </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Our Partner -->
+    <section class=" banner-bg bg-light">
+        <div class="container py-5">
+            <h2 class="h2 text-black text-center py-1">Our Partner</h2>
+            <div class="row text-center">
+                <div class="col-md-3 mb-3">
+                    <div class="card partner-wap py-1">
+                        <a href="https://www.instagram.com/nursyahfei/"><img src="assets/img/pei.png" width="150" height="200" alt="alternatetext"></i></a>
+                        <p><b>Nur Syahfei</b></p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card partner-wap py-1">
+                        <a href="https://www.instagram.com/ini.iskan/"><img src="assets/img/iskan.png" width="200" height="200" alt="alternatetext"></a>
+                        <p><b>Ikandar Sholeh</b></p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card partner-wap py-1">
+                        <a href="https://www.instagram.com/farhanjundan20/"><img src="assets/img/farhan.png" width="150" height="200" alt="alternatetext"></i></a>
+                        <p><b>Farhan Jundan</b></p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card partner-wap py-1">
+                        <a href="https://www.instagram.com/farlinahrul/"><img src="assets/img/farli.png" width="150" height="200" alt="alternatetext"></i></a>
+                        <p><b>Farli Nahrul Javier</b></p>
+                    </div>
+              
+                </div>
+              <center>  <div class="col-md-3 mb-3">
+                    <div class="card partner-wap py-1">
+                        <a href="https://www.instagram.com/arindnnn/"><img src="assets/img/dinda.png" width="150" height="200" alt="alternatetext"></a>
+                        <p><b>Dinda Arinawati Wiyono</b></p>
+                    </div>
+                </div> </center>
+            </div>
+        </div>
+    </section>
+    <!--End Our Partner-->
+
+    <!-- Start Choice -->
+    <!-- <section class="why-us banner-bg bg-light"> -->
+        <!-- <div class="container my-4"> -->
+            <!-- <div class="row">
+                <div class="banner-img col-lg-5">
+                    <img src="./assets/img/work.svg" class="rounded img-fluid" alt="">
+                </div>
+                <div class="banner-content col-lg-7 align-self-end">
+                    <h2 class="h2 pb-3">Why you choose us?</h2>
+                    <p class="text-muted pb-5 light-300">
+                    You are allowed to download and use this Purple Buzz template for your websites. You are <strong>not allowed</strong> to re-distribute this template ZIP file on other template websites. It is quite easy to simply copy and repost the ZIP file on any <a rel="nofollow" href="https://www.google.com/search?q=free+css" target="_blank">Free CSS collection</a> websites.</p>
+                </div>
+            </div> -->
+        <!-- </div> -->
+    <!-- </section> -->
+    <!-- End Choice -->
+
+    
+ <!-- Start Footer -->
+ <footer class="bg-secondary pt-4">
         <div class="container">
             <div class="row py-4">
 
                 <div class="col-lg-3 col-12 align-left">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index.php">
                         <i class='bx bx-buildings bx-sm text-light'></i>
                         <span class="text-light h5">Nurul</span> <span class="text-light h5 semi-bold-600">Iman</span>
                     </a>
                     <p class="text-light my-lg-4 my-2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incididunt ut.
+                   <b> TPQ Nurul Iman </b>
+                <br>
+                Jalan Hasanuddin Rt. 03 Rw.07 <br>
+                Kota Batu - Jawa Timur <br> <br>
+
                     </p>
                     <ul class="list-inline footer-icons light-300">
                         <li class="list-inline-item m-0">
@@ -327,17 +343,17 @@ https://templatemo.com/tm-561-purple-buzz
                 </div>
 
                 <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
-                    <h3 class="h4 pb-lg-3 text-light light-300">Our Company</h2>
+                    <h3 class="h4 pb-lg-3 text-light light-300">Profile</h2>
                         <ul class="list-unstyled text-light light-300">
-                            <li class="pb-2">
+                            <!-- <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.php">Home</a>
-                            </li>
+                            </li> -->
                             <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about.php">About Us</a>
                             </li>
-                            <li class="pb-2">
+                            <!-- <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.php">Work</a>
-                            </li>
+                            </li> -->
                             <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.php">Contact</a>
                             </li>
@@ -365,7 +381,7 @@ https://templatemo.com/tm-561-purple-buzz
                 <div class="row pt-2">
                     <div class="col-lg-6 col-sm-12">
                         <p class="text-lg-start text-center text-light light-300">
-                            © Copyright 2021 Purple Buzz Company. All Rights Reserved.
+                            © Copyright 2021.
                         </p>
                     </div>
                     <div class="col-lg-6 col-sm-12">
@@ -379,6 +395,7 @@ https://templatemo.com/tm-561-purple-buzz
 
     </footer>
     <!-- End Footer -->
+
 
 
     <!-- Bootstrap -->

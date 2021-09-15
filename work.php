@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Nurul Iman - Work Page</title>
+    <title>Misbahussudur - Work Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
@@ -29,8 +29,8 @@ https://templatemo.com/tm-561-purple-buzz
     <!-- Header -->
     <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
         <div class="container d-flex justify-content-between align-items-center">
-            <a class="navbar-brand h1" href="index.html">
-                <i class='bx bx-buildings bx-sm text-dark'></i>
+            <a class="navbar-brand h1" href="index.php">
+                <!-- <i ><img src="assets/img/icon.png "width="35" height="30"></img></i> -->
                 <span class="text-primary h4">Nurul Iman</span>
             </a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,7 +39,7 @@ https://templatemo.com/tm-561-purple-buzz
 
             <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
                 <div class="flex-fill mx-xl-5 mb-2">
-                <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
                         <li class="nav-item">
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.php">Home</a>
                         </li>
@@ -47,10 +47,10 @@ https://templatemo.com/tm-561-purple-buzz
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="#">Visi & Misi</a>
                         </li> -->
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.php">About</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.php">Profile</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.php">Work</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.php">News</a>
                         </li>
                         <!-- <li class="nav-item">
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="#">Testimonial</a>
@@ -60,7 +60,11 @@ https://templatemo.com/tm-561-purple-buzz
                         </li>
                     </ul>
                 </div>
-                
+                <!-- <div class="navbar align-self-center d-flex">
+                    <a class="nav-link" href="#"><i class='bx bx-bell bx-sm bx-tada-hover text-primary'></i></a>
+                    <a class="nav-link" href="#"><i class='bx bx-cog bx-sm text-primary'></i></a>
+                    <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-primary'></i></a>
+                </div> -->
             </div>
         </div>
     </nav>
@@ -68,7 +72,7 @@ https://templatemo.com/tm-561-purple-buzz
 
 
     <!-- Start Banner Hero -->
-    <div id="work_banner" class="banner-wrapper bg-light w-100 py-5">
+    <!-- <div id="work_banner" class="banner-wrapper bg-light w-100 py-5">
         <div class="banner-vertical-center-work container text-light d-flex justify-content-center align-items-center py-5 p-0">
             <div class="banner-content col-lg-8 col-12 m-lg-auto text-center">
                 <h1 class="banner-heading h2 display-3 pb-5 semi-bold-600 typo-space-line-center">Our Work</h1>
@@ -84,24 +88,24 @@ https://templatemo.com/tm-561-purple-buzz
                 <button type="submit" class="btn rounded-pill btn-secondary text-light px-4 light-300">Contact Us</button>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End Banner Hero -->
 
     <!-- Start Our Work -->
-    <section class="container py-5">
+    <section class="container py-1">
         <div class="row justify-content-center my-5">
             <div class="filter-btns shadow-md rounded-pill text-center col-auto">
                 <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4 active" data-filter=".project" href="#">All</a>
-                <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4" data-filter=".business" href="#">Business</a>
+                <!-- <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4" data-filter=".business" href="#">Business</a>
                 <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4" data-filter=".marketing" href="#">Marketing</a>
                 <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4" data-filter=".social" href="#">Social Media</a>
-                <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4" data-filter=".graphic" href="#">Graphic</a>
+                <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4" data-filter=".graphic" href="#">Graphic</a> -->
             </div>
         </div>
 
         <div class="row projects gx-lg-5">
                  <?php
-              $db_connection = mysqli_connect("us-cdbr-east-04.cleardb.com","b4d4b5e8043e16","1109892b","heroku_afcc4630639690d");
+                $db_connection = mysqli_connect("us-cdbr-east-04.cleardb.com","b4d4b5e8043e16","1109892b","heroku_afcc4630639690d");
                 $select = mysqli_query($db_connection, "SELECT * FROM work");
                 while ($row = $select->fetch_assoc()) {                         
                 ?>
@@ -120,81 +124,6 @@ https://templatemo.com/tm-561-purple-buzz
                 </div>
             </a>
             <?php } ?>
-            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none project graphic social">
-                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
-                    <img class="card-img-top" src="./assets/img/our-work-02.jpg" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title light-300 text-dark">Corporate Branding</h5>
-                        <p class="card-text light-300 text-dark">
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                        <span class="text-decoration-none text-primary light-300">
-                              Read more <i class='bx bxs-hand-right ms-1'></i>
-                          </span>
-                    </div>
-                </div>
-            </a>
-            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none project marketing graphic business">
-                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
-                    <img class="card-img-top" src="./assets/img/our-work-03.jpg" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title light-300 text-dark">Leading Digital Solution</h5>
-                        <p class="card-text light-300 text-dark">
-                            Duis aute irure dolor in reprehenderit in voluptate velit
-                            esse cillum dolore eu fugiatdolore eu fugiat nulla pariatur.
-                        </p>
-                        <span class="text-decoration-none text-primary light-300">
-                              Read more <i class='bx bxs-hand-right ms-1'></i>
-                          </span>
-                    </div>
-                </div>
-            </a>
-            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none project social business">
-                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
-                    <img class="card-img-top" src="./assets/img/our-work-04.jpg" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title light-300 text-dark">Smart Applications</h5>
-                        <p class="card-text light-300 text-dark">
-                            Excepteur sint occaecat cupidatat non proident, sunt in
-                            culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
-                        <span class="text-decoration-none text-primary light-300">
-                              Read more <i class='bx bxs-hand-right ms-1'></i>
-                          </span>
-                    </div>
-                </div>
-            </a>
-            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none project marketing">
-                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
-                    <img class="card-img-top" src="./assets/img/our-work-05.jpg" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title light-300 text-dark">Corporate Stationary</h5>
-                        <p class="card-text light-300 text-dark">
-                            Excepteur sint occaecat cupidatat non proident,
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
-                        <span class="text-decoration-none text-primary light-300">
-                              Read more <i class='bx bxs-hand-right ms-1'></i>
-                          </span>
-                    </div>
-                </div>
-            </a>
-            <a href="work-single.html" class="col-sm-6 col-lg-4 text-decoration-none project marketing graphic">
-                <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
-                    <img class="card-img-top" src="./assets/img/our-work-06.jpg" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title light-300 text-dark">8 Financial Tips</h5>
-                        <p class="card-text light-300 text-dark">
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                        <span class="text-decoration-none text-primary light-300">
-                              Read more <i class='bx bxs-hand-right ms-1'></i>
-                          </span>
-                    </div>
-                </div>
-            </a>
         </div>
         <div class="row">
             <div class="btn-toolbar justify-content-center pb-4" role="toolbar" aria-label="Toolbar with button groups">
@@ -216,7 +145,7 @@ https://templatemo.com/tm-561-purple-buzz
     <!-- End Our Work -->
 
     <!-- Start Feature Work -->
-    <section class="bg-light py-5">
+    <!-- <section class="bg-light py-5">
         <div class="feature-work container my-4">
             <div class="row d-flex d-flex align-items-center">
                 <div class="col-lg-5">
@@ -250,23 +179,26 @@ https://templatemo.com/tm-561-purple-buzz
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- End Feature Work -->
 
 
-    <!-- Start Footer -->
-    <footer class="bg-secondary pt-4">
+   <!-- Start Footer -->
+   <footer class="bg-secondary pt-4">
         <div class="container">
             <div class="row py-4">
 
                 <div class="col-lg-3 col-12 align-left">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index.php">
                         <i class='bx bx-buildings bx-sm text-light'></i>
                         <span class="text-light h5">Nurul</span> <span class="text-light h5 semi-bold-600">Iman</span>
                     </a>
                     <p class="text-light my-lg-4 my-2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incididunt ut.
+                   <b> TPQ Nurul Iman </b>
+                <br>
+                Jalan Hasanuddin Rt. 03 Rw.07 <br>
+                Kota Batu - Jawa Timur <br> <br>
+
                     </p>
                     <ul class="list-inline footer-icons light-300">
                         <li class="list-inline-item m-0">
@@ -298,17 +230,17 @@ https://templatemo.com/tm-561-purple-buzz
                 </div>
 
                 <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
-                    <h3 class="h4 pb-lg-3 text-light light-300">Our Company</h2>
+                    <h3 class="h4 pb-lg-3 text-light light-300">Profile</h2>
                         <ul class="list-unstyled text-light light-300">
-                            <li class="pb-2">
+                            <!-- <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.php">Home</a>
-                            </li>
+                            </li> -->
                             <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about.php">About Us</a>
                             </li>
-                            <li class="pb-2">
+                            <!-- <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.php">Work</a>
-                            </li>
+                            </li> -->
                             <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.php">Contact</a>
                             </li>
@@ -336,7 +268,7 @@ https://templatemo.com/tm-561-purple-buzz
                 <div class="row pt-2">
                     <div class="col-lg-6 col-sm-12">
                         <p class="text-lg-start text-center text-light light-300">
-                            © Copyright 2021 Purple Buzz Company. All Rights Reserved.
+                            © Copyright 2021.
                         </p>
                     </div>
                     <div class="col-lg-6 col-sm-12">
@@ -350,7 +282,6 @@ https://templatemo.com/tm-561-purple-buzz
 
     </footer>
     <!-- End Footer -->
-
 
     <!-- Bootstrap -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
