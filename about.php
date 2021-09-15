@@ -78,11 +78,11 @@ https://templatemo.com/tm-561-purple-buzz
                 <div class="col-lg-6 text-start">
                     <h1 class="h2 py-5 text-primary typo-space-line">PENDAHULUAN</h1>
                     <style>
-                     div.d {
+                     span.d {
                     text-align: justify;
                     } 
                         </style>
-                    <div class="d">
+                    <span class="d">
                     <b>  <h2> Taman Pendidikan Al-Qur'an</h2></b>
                     <br><br> 
                     <b>Nurul Iman.</b>  
@@ -92,7 +92,7 @@ https://templatemo.com/tm-561-purple-buzz
                     pendekatan individual dan teknik baca simak. Jumlah Santri pada TPQ Nurul Iman mencapai 201.
                     pada hari Sabtu dan Ahad Libur.
 
-                </div>
+                </span>
                 </div>
                 <div class="col-lg-6">
                 <img src="./assets/img/strukaa.png" height="500" width="380" align="right">
